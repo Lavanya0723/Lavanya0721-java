@@ -1,0 +1,23 @@
+import java.util.*;
+class MinMax{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter n value:");
+int n=sc.nextInt();
+int min=1;
+int max=0;
+int rem=0;
+while(n>0){
+rem=n%10;
+if(rem<=min){
+min=rem;
+}
+if(rem>=max){
+max=rem;
+}
+n=n/10;
+}
+System.out.println("maximum number is :"+max);
+System.out.println("Minimum number is :"+min);
+}
+}
