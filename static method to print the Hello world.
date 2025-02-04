@@ -1,0 +1,14 @@
+
+/*output:Hello world.*/
+
+class Hello{
+    void display(){
+        System.out.println("Hello world.");
+    }
+}
+class Main{
+    public static void main(String args[]){
+        Hello a=new Hello();
+        a.display();
+    }
+}
