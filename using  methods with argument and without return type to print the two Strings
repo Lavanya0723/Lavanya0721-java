@@ -1,0 +1,13 @@
+class MString {  
+    void display(String n1, String n2) {
+        System.out.println(n1);
+        System.out.println(n2);
+    }
+}
+
+class Main {
+    public static void main(String args[]) {
+     MString s = new MString(); 
+        s.display("Lavanya","Sravani"); 
+    }
+}
