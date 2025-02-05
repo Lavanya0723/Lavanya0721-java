@@ -1,0 +1,13 @@
+class MyString{
+    static String n1="Hai";
+    String display(){
+        return n1;
+    }
+}
+
+class Main{
+    public static void main(String args[]){
+        MyString s=new MyString();
+        System.out.println(s.display());
+    }
+ }
