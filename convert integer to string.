@@ -1,0 +1,18 @@
+/*output:
+  100
+  Good job.*/
+import java.io.*;
+import  java .util.*;
+public class Main{
+    public static void main(String [] args){
+        Scanner  sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        String result=Integer.toString(n);
+        if(result.equals(String.valueOf(n))){
+            System.out.println("Good job");
+        }
+        else{
+            System.out.println("Wrong Answer");
+        }
+    }
+}
