@@ -1,0 +1,14 @@
+/*output:
+Enter the random number:30
+11
+*/
+import  java.util.*;
+class Random{
+    public static void main(String args[]){
+        Scanner s=new Scanner(System.in);
+        System.out.print("Enter the random number:");
+        int n=s.nextInt();
+        int random = (int) (Math.random() * n);
+        System.out.println(random);
+    }
+}
