@@ -1,0 +1,19 @@
+/*Output:
+Hello
+5
+*/
+class Solution{
+    void display(){
+       System.out.println("Hello");
+    }
+    void display(int x){
+        System.out.println(x);
+    }
+}
+class Method{
+    public static void main(String args[]){
+      Solution s=new Solution();
+      s.display();
+      s.display(5);
+    }
+}
