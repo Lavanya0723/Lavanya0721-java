@@ -1,0 +1,19 @@
+import java.util.Scanner;
+ class
+  PowerCalculator {
+      public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the base number: ");
+        int base = scanner.nextInt();
+        System.out.print("Enter the exponent: ");//message to print the exponent
+        int exponent = scanner.nextInt();
+        int result = 1;  // To store the result
+        int i=0;
+        while(exponent>i){//while loop
+            result=result*base;//to intialize the value
+            i++;//to iterate the loop
+        }
+        System.out.println("result is:"+result);//to print the result
+    }
+
+}
