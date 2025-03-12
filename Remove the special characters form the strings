@@ -1,0 +1,23 @@
+/*output:
+LAVANYA@#$
+L->76
+A->65
+V->86
+A->65
+N->78
+Y->89
+A->65
+*/
+import java.util.*;
+class RemoveSpecialCharacters{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        String  s=sc.nextLine();
+        for(int i=0;i<s.length();i++){
+            char c=s.charAt(i);
+            if((int)c>=65 && (int)c<=90){
+                System.out.println((char)c +"->" + (int)c);
+            }
+        }
+    }
+}
