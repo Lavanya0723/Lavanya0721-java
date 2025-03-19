@@ -1,0 +1,34 @@
+/*Input Format
+First line will contain 
+T
+T, number of test cases. Then the test cases follow.
+Each test case contains of a single line consisting of single integer 
+X
+X.
+Output Format
+For each test case, output the number of kilometers Chef travels through office trips in a week.
+input:       
+4
+1
+3
+7
+10
+output:
+10
+30
+70
+100*/
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int t = scanner.nextInt();
+        
+        while (t-- > 0) {
+            int x = scanner.nextInt();
+            // Your code goes here
+            int totalDistance=2*x*5;
+            System.out.println(totalDistance);
+        }
+    }
+}
