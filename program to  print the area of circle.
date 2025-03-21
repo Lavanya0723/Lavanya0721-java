@@ -1,0 +1,15 @@
+/*output:
+Enter a values:4
+50.24
+*/
+import java.util.*;
+class  AreaCircle{
+    public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    System.out.print("Enter a values:");
+    float f=sc.nextFloat();
+    double area;
+    area=3.14*f*f;
+    System.out.println(area);
+    } 
+}
