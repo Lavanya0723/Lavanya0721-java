@@ -1,0 +1,18 @@
+/*output:
+Enter height:4
+Enter breadth:2
+Area of the parallelogram:8.0
+*/
+import java.util.*;
+class Parallelogram{
+    public static void main(String args[]){
+        Scanner  sc=new Scanner(System.in);
+        System.out.print("Enter height:");
+        int h=sc.nextInt();
+        System.out.print("Enter breadth:");
+        int b=sc.nextInt();
+        double area ;
+        area=h*b;
+        System.out.println("Area of the parallelogram:"+area);
+    }
+}
