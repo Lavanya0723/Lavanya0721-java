@@ -1,0 +1,21 @@
+/*output:
+Enter length:12
+Enter breadth:2
+Area of the rectangle:24.0
+*/
+
+import java.util.*;
+class Main{
+    public static  void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter length:");
+        int  l=sc.nextInt();
+        System.out.print("Enter breadth:");
+        int  b=sc.nextInt();
+        double Area;
+        Area=l*b;
+        System.out.print("Area of the rectangle:"+Area);
+        
+        
+    }
+}
