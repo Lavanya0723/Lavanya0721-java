@@ -1,0 +1,23 @@
+/*output:
+30*/
+class SecondLargest {
+    public static void main(String[] args) {
+        int[] a = {12,20,30,30,50};
+        int max = a[0];  // Assuming the first element is the max
+        int secmax = Integer.MIN_VALUE; // Initialize to a very small number
+
+        // First loop to find the maximum value
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > max) {
+                secmax = max;  // Update second max before updating max
+                max = a[i];    // Update max
+            } 
+            else if (a[i] > secmax && a[i] != max) {
+                secmax = a[i]; // Update second max if the value is different from max
+            }
+        }
+
+        // Output the second maximum value
+        System.out.println(secmax);
+    }
+}
