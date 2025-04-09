@@ -1,0 +1,25 @@
+/*output:
+Enter n value:4
+      *
+    * *
+  * * *
+* * * *
+*/
+import java.util.*;
+class Pattern4{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter n value:");
+        int n=sc.nextInt();
+        int row,col;
+        for(row=0;row<n;row++){
+        for(col=0;col<=n-row-1;col++){
+            System.out.print(" ");
+        }
+        for(col=0;col<=row;col++){
+        System.out.print("*");
+        }
+        System.out.println();
+        }
+    }
+}
