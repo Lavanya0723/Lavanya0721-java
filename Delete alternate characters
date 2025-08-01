@@ -1,0 +1,25 @@
+/*Output:
+Geeks
+Ges
+*/
+import java.util.*;
+class Solution {
+    static String delAlternate(String S) {
+        // code here
+         String str=" ";
+         for(int i=0;i<S.length();i+=2){
+             str+=S.charAt(i);
+         }
+         return str;
+        
+    }
+}
+class AlternateChar{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        String  S=sc.nextLine();
+        Solution sol=new Solution();
+        String  res=sol.delAlternate(S);
+        System.out.println(res);
+    }
+}
